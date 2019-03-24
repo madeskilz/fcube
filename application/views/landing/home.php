@@ -29,7 +29,7 @@
 					<div class="col-12 col-md-4">
 						<i class="ti-world text-dark"></i>
 						<h6 class="heading-uppercase margin-top-20">Fast &amp; Automated Transaction</h6>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<p>We offer instant recharge of Airtime, Databundle, CableTV (DStv, GOtv & Startimes), Electricity Bill Payment and so much more at your finger tip.</p>
 					</div>
 					<div class="col-12 col-md-4">
 						<i class="ti-money text-dark"></i>
