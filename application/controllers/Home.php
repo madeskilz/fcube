@@ -38,4 +38,19 @@ class Home extends CI_Controller {
 		$page_data['pg_title'] = "About";
 		$this->load->view('landing/about', $page_data);
 	}
+	public function login()
+	{
+		$page_data['pg_title'] = "Login";
+		$this->load->view('landing/login', $page_data);
+	}
+	public function register()
+	{
+		$page_data['pg_title'] = "Register";
+		$this->load->view('landing/register', $page_data);
+	}
+	public function recover()
+	{
+		$page_data['pg_title'] = "Recover";
+		$this->load->view('landing/recover', $page_data);
+	}
 }

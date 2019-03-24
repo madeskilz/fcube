@@ -23,18 +23,18 @@
 				<div class="row icon-5xl">
 					<div class="col-12 col-md-4">
 						<i class="ti-star text-dark"></i>
-						<h6 class="heading-uppercase margin-top-20">Branding</h6>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<h6 class="heading-uppercase margin-top-20">Our Services are for You</h6>
+						<p>Our Services are tailored to meet your needs.</p>
 					</div>
 					<div class="col-12 col-md-4">
 						<i class="ti-world text-dark"></i>
-						<h6 class="heading-uppercase margin-top-20">Social Marketing</h6>
+						<h6 class="heading-uppercase margin-top-20">Fast &amp; Automated Transaction</h6>
 						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
 					</div>
 					<div class="col-12 col-md-4">
-						<i class="ti-camera text-dark"></i>
-						<h6 class="heading-uppercase margin-top-20">Photography</h6>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+						<i class="ti-money text-dark"></i>
+						<h6 class="heading-uppercase margin-top-20">Save More Money</h6>
+						<p>Get amazing discounts and bonuses when you use our platform.</p>
 					</div>
 				</div><!-- end row -->
 			</div><!-- end container -->
@@ -164,7 +164,7 @@
                                 <li>.</li>
 								</ul>
 							</div>
-							<a class="button button-md button-dark button-rounded" href="javascript:;">Check Balance *140#</a>
+							<a class="button button-md button-dark button-rounded" href="javascript:;">To Check Data Balance Dial *140#</a>
 						</div>
 					</div>
 				</div><!-- end row -->

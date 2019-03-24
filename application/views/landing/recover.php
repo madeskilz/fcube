@@ -11,7 +11,7 @@
 									<button class="button button-lg button-outline-white-2 button-fullwidth">Recover Account</button>
 								</form>
 								<div class="margin-top-30">
-									<a href="Login.html">Go back to login</a>
+									<a href="<?= base_url("login");?>">Go back to login</a>
 								</div>
 							</div>
 						</div><!-- end row -->
