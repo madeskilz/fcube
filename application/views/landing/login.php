@@ -13,8 +13,8 @@
 								</form>
 								<div class="margin-top-30">
 									<ul class="list-unstyled">
-										<li><a href="#">Forgot username or password?</a></li>
-										<li><a href="#">Create account</a></li>
+										<li><a href="<?= base_url("recover");?>">Forgot username or password?</a></li>
+										<li><a href="<?= base_url("register");?>">Create account</a></li>
 									</ul>
 								</div>
 							</div>

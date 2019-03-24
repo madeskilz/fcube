@@ -7,7 +7,7 @@
         <meta name="keywords" content="">
 		<title><?= $pg_title?> | F-Cube Digitals</title>
 		<!-- Favicon -->
-        <link href="<?=base_url("assets/images/favicon.png");?>" rel="shortcut icon">
+        <link href="<?=base_url("assets/favicon.ico");?>" rel="shortcut icon">
 		<!-- CSS -->
 		<link href="<?=base_url("assets/plugins/bootstrap/bootstrap.min.css");?>" rel="stylesheet">
 		<link href="<?=base_url("assets/plugins/owl-carousel/owl.carousel.min.css");?>" rel="stylesheet">
@@ -23,8 +23,8 @@
 			<nav class="navbar navbar-dark navbar-sticky navbar-sticky-apply">
 				<div class="container">
 					<a class="navbar-brand" href="<?= base_url()?>">
-						<h5>F-Cube Digitals</h5>
-						<!-- <img src="<?//= base_url("assets/images/logo.png");?>" /> -->
+						<!-- <h5>F-Cube Digitals</h5> -->
+						<img src="<?= base_url("assets/images/logo-1.jpeg");?>" style="width: 200%;min-height: 50px;" />
 					</a>
 					<ul class="nav">
 						<li class="nav-item">
@@ -37,7 +37,16 @@
 							<a class="nav-link" href="javascript:;">Services</a>
 				        	<ul class="dropdown-menu">
 								<li class="sub-dropdown">
-									<a href="javascript:;">Data Services</a>
+									<a href="javascript:;">Airtime Recharge</a>
+									<div class="sub-dropdown-menu">
+										<a href="javascript:;">Airtel</a>
+										<a href="javascript:;">GLO</a>
+										<a href="javascript:;">9 Mobile</a>
+										<a href="javascript:;">MTN</a>
+									</div>
+								</li>
+								<li class="sub-dropdown">
+									<a href="javascript:;">Data Recharge</a>
 									<div class="sub-dropdown-menu">
 										<a href="javascript:;">Airtel</a>
 										<a href="javascript:;">GLO</a>
@@ -45,15 +54,6 @@
 										<a href="javascript:;">MTN</a>
 										<a href="javascript:;">Spectranet</a>
 										<a href="javascript:;">Smile</a>
-									</div>
-								</li>
-								<li class="sub-dropdown">
-									<a href="javascript:;">Airtime Services</a>
-									<div class="sub-dropdown-menu">
-										<a href="javascript:;">Airtel</a>
-										<a href="javascript:;">GLO</a>
-										<a href="javascript:;">9 Mobile</a>
-										<a href="javascript:;">MTN</a>
 									</div>
 								</li>
 								<li class="sub-dropdown">
@@ -84,8 +84,8 @@
 						</li>
 						<li class="nav-item pull-right text-center">
                             <div class="btn-group text-center" style="height:100%;padding-top:7%;">
-							    <a class="btn btn-warning" href="<?= base_url('Auth')?>">Login</a>
-							    <a class="btn btn-warning" href="<?= base_url('Auth/Register')?>">Register</a>
+							    <a class="btn btn-warning" href="<?= base_url('login')?>">Login</a>
+							    <a class="btn btn-warning" href="<?= base_url('register')?>">Register</a>
                             </div>
 						</li>
 					</ul><!-- end nav -->

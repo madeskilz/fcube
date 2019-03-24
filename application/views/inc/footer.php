@@ -1,30 +1,33 @@
 		<!-- Clients section -->
-		<div class="section bg-grey">
+		<div class="section bg-grey" style="padding: 45px 0;">
 			<div class="container">
 				<div class="owl-carousel" data-owl-dots="false" data-owl-margin="30" data-owl-autoplay="true" data-owl-xs="1" data-owl-sm="2" data-owl-md="3" data-owl-lg="4" data-owl-xl="6">
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/client-1.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/airtel.png");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/client-2.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/DStv.png");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/client-3.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/etisalat.png");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/client-4.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/glo.png");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/client-5.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/ikjedc.jpg");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/client-6.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/mtn.png");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/client-7.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/smile.png");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/client-1.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/spectranet.png");?>" alt=""></a>
+					</div>
+					<div class="client-box">
+						<a href="#"><img src="<?=base_url("assets/images/partners/STTV.png");?>" alt=""></a>
 					</div>
 				</div><!-- end owl-carousel -->
 			</div><!-- end container -->
@@ -35,24 +38,25 @@
 				<div class="container">
 					<div class="row col-spacing-40">
 						<div class="col-12 col-md-6 col-lg-3">
-							<h3>Mono</h3>
+							<h3>F-Cube Digitals</h3>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3">
-							<h6 class="heading-uppercase">Useful Links</h6>
+							<h6 class="heading-uppercase">Quick Links</h6>
 							<ul class="list-dash">
-								<li><a href="#">About us</a></li>
-								<li><a href="#">Team</a></li>
-								<li><a href="#">Prices</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="<?= base_url();?>">Home</a></li>
+								<li><a href="<?= base_url('about');?>">About Us</a></li>
+								<li><a href="<?= base_url('faq');?>">FAQ</a></li>
+								<li><a href="<?= base_url('contact');?>">Contact Us</a></li>
+								<li><a href="<?= base_url('login');?>">Login</a> / <a href="<?= base_url('register');?>">Register</a></li>
 							</ul>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3">
-							<h6 class="heading-uppercase">Additional Links</h6>
+							<h6 class="heading-uppercase">Services</h6>
 							<ul class="list-dash">
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Process</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Careers</a></li>
+								<li><a href="javascript:;">Airtime Recharge</a></li>
+								<li><a href="javascript:;">Data Recharge</a></li>
+								<li><a href="javascript:;">TV Subscription</a></li>
+								<li><a href="javascript:;">Electric Bills</a></li>
 							</ul>
 						</div>
 						<div class="col-12 col-md-6 col-lg-3">
@@ -69,7 +73,7 @@
 
 					<div class="row">
 						<div class="col-12 col-md-6 text-center text-md-left">
-							<p>&copy; <?php echo date("Y"); ?> FlaTheme, All Rights Reserved.</p>
+							<p>&copy; <?php echo date("Y"); ?> F-Cube Digitals, All Rights Reserved.</p>
 						</div>
 						<div class="col-12 col-md-6 text-center text-md-right">
 							<ul class="list-horizontal-unstyled">
