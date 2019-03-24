@@ -9,58 +9,77 @@
 						<ul class="accordion accordion-oneopen">
 							<li class="active">
 								<div class="accordion-title">
-									<h6 class="heading-uppercase">What is Mono?</h6>
+									<h6 class="heading-uppercase">What How can I purchase data from you?</h6>
 								</div>
 								<div class="accordion-content">
-									<p>Mono is a modern, powerful and lightweight HTML5 template which has been built with Bootstrap 4 Front-End Framework.</p>
+								<ul>
+                                <li><b>Step 1:</b> Create or login to your account, if you already have</li>
+                                <li><b>Step 2:</b> Fund your wallet</li>
+                                <li><b>Step 3:</b> Fill the data form</li>
+                                <li><b>Step 4:</b> Wait for 5-15 minutes, the recipent(s) will receive notification(s) of data recharge(Except for 9mobile(SME), which
+                                should be confirmed with its balance code).</li>
+                                <li>Codes to check for data balance are
+                                    <ul>
+                                        <li><b>MTN: </b>*461*3*2#</li>
+                                        <li><b>9MOBILE: </b>*228#</li>
+                                        <li><b>AIRTEL: </b>*140#</li>
+                                        <li><b>GLO: </b>*127*0#</li>
+                                    </ul>
+                                </li>
+                            </ul>
 								</div>
 							</li>
 							<li>
 								<div class="accordion-title">
-									<h6 class="heading-uppercase">Why should i choose Mono?</h6>
+									<h6 class="heading-uppercase">How can I fund my wallet?</h6>
 								</div>
 								<div class="accordion-content">
-									<p>Mono is made by professionals and has everything you need to build any kind of modern beautiful website.</p>
+								You can fund your wallet using any of the three payment means.
+                            <ul>
+                                <li>Bank Payment (Transfer)</li>
+                                <li>Online Payment with your ATM card details via Pay stack Payment gateway.</li>
+                                <li>Payment with Airtime.</li>
+                            </ul>
 								</div>
 							</li>
 							<li>
 								<div class="accordion-title">
-									<h6 class="heading-uppercase">What makes it powerful?</h6>
+									<h6 class="heading-uppercase">Can I share the data I buy from you with another line?</h6>
 								</div>
 								<div class="accordion-content">
-									<p>It's based on Bootstrap 4 Front-End Framework which has ton of options and features and plus our custom options and features makes it even powerful.</p>
+									<p>You can only share glo data plan, mtn, 9mobile, and airtel data can't be shared.</p>
 								</div>
 							</li>
 							<li>
 								<div class="accordion-title">
-									<h6 class="heading-uppercase">How well is it organized?</h6>
+									<h6 class="heading-uppercase">Are your data plans legit?</h6>
 								</div>
 								<div class="accordion-content">
-									<p>Every single file is highly organized and documented in order to make it easy to use.</p>
+									<p>Yes, we are third party data vendors. We buy in bulk from network providers and resell.</p>
 								</div>
 							</li>
 							<li>
 								<div class="accordion-title">
-									<h6 class="heading-uppercase">Why is it so lightweight?</h6>
+									<h6 class="heading-uppercase">I paid into your bank account but my wallet was not autocredited.</h6>
 								</div>
 								<div class="accordion-content">
-									<p>Mono is written in a best and simplest way and it has just a few useful plugins to make it lightweight and high performance.</p>
+									<p>Please chat customers service via whatsapp, send the amount paid, bank paid into, date of payment and your username.</p>
 								</div>
 							</li>
 							<li>
 								<div class="accordion-title">
-									<h6 class="heading-uppercase">Is it frequently updated?</h6>
+									<h6 class="heading-uppercase">What are the other products/services you offer?</h6>
 								</div>
 								<div class="accordion-content">
-									<p>We're always looking for ways to improve and expand the template. And so it's getting better and bigger everyday.</p>
+									<p>We sell Cheap Internet Data Plans, Airtime VTU on MTN, 9MOBILE, GLO and AIRTEL, Bills Payment (GOTV, DSTV, STARTIMES), ELECTRICITY BILLS, PRINTING RECHARGE CARD and BULK SMS.</p>
 								</div>
 							</li>
 							<li>
 								<div class="accordion-title">
-									<h6 class="heading-uppercase">Can i get a refund?</h6>
+									<h6 class="heading-uppercase">More Questions?</h6>
 								</div>
 								<div class="accordion-content">
-									<p>Only reason we'll give a refund is for mistaken purchase. But you mustn't have downloaded the template package in order to get a refund.</p>
+									<p><a href="<?= base_url("contact");?>">Get in touch with us.</a></p>
 								</div>
 							</li>
 						</ul>
