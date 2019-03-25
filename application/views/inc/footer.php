@@ -3,10 +3,10 @@
 			<div class="container">
 				<div class="owl-carousel" data-owl-dots="false" data-owl-margin="30" data-owl-autoplay="true" data-owl-xs="1" data-owl-sm="2" data-owl-md="3" data-owl-lg="4" data-owl-xl="6">
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/partners/airtel.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/airtel.png");?>" alt="" style="width:80px;height:auto;"></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/partners/DStv.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/DStv.png");?>" alt="" style="width:80px;height:auto;"></a>
 					</div>
 					<div class="client-box">
 						<a href="#"><img src="<?=base_url("assets/images/partners/etisalat.png");?>" alt=""></a>
@@ -15,7 +15,7 @@
 						<a href="#"><img src="<?=base_url("assets/images/partners/glo.png");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/partners/ikjedc.jpg");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/ikjedc.jpg");?>" alt="" style="width:80px;height:auto;"></a>
 					</div>
 					<div class="client-box">
 						<a href="#"><img src="<?=base_url("assets/images/partners/mtn.png");?>" alt=""></a>
@@ -27,7 +27,7 @@
 						<a href="#"><img src="<?=base_url("assets/images/partners/spectranet.png");?>" alt=""></a>
 					</div>
 					<div class="client-box">
-						<a href="#"><img src="<?=base_url("assets/images/partners/STTV.png");?>" alt=""></a>
+						<a href="#"><img src="<?=base_url("assets/images/partners/STTV.png");?>" alt="" style="width:80px;height:auto;"></a>
 					</div>
 				</div><!-- end owl-carousel -->
 			</div><!-- end container -->
