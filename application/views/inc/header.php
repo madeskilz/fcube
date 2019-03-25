@@ -6,6 +6,8 @@
 		<meta name="description" content="">
         <meta name="keywords" content="">
 		<title><?= $pg_title?> | F-Cube Digitals</title>
+
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
 		<!-- Favicon -->
         <link href="<?=base_url("assets/favicon.ico");?>" rel="shortcut icon">
 		<!-- CSS -->
