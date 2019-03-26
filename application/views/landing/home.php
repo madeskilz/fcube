@@ -92,7 +92,7 @@
 					</div>
 					<!-- Prices box 2 -->
 					<div class="col-12 col-lg-3">
-						<div class="prices-box prices-box-recommended">
+						<div class="prices-box">
 							<h6 class="heading-uppercase">MTN</h6>
 							<div class="price">
 								<h6 class="font-weight-normal"><span>Up to 90 days validity</span></h6>
