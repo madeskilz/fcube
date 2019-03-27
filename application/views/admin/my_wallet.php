@@ -1,4 +1,4 @@
-<?php $this->load->view('user/inc/sidebar');?>
+<?php $this->load->view('admin/inc/sidebar');?>
 	<div style="min-height:calc(100vh - 358px);">
     <div class="section" style="padding-left:10px;padding-right:10px;">
     <div class="row">
@@ -87,4 +87,4 @@
     </div>
     </div>
     </div>		
-<?php $this->load->view('user/inc/footer');?>
+<?php $this->load->view('admin/inc/footer');?>

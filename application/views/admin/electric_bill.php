@@ -1,27 +1,31 @@
-<?php $this->load->view('user/inc/sidebar');?>
+<?php $this->load->view('admin/inc/sidebar');?>
 	<div style="min-height:calc(100vh - 358px);">
         <div class="section">
 			<div class="container">
 				<div class="row col-spacing-50">
 					<div class="col-12 col-md-6">
-						<form>
-							<label class="required">Select Network</label>
+                    <form>
+							<label class="required">Power Holding Company</label>
                             <select class="custom-select w-100 custom-select-lg">
                                 <option selected>Select menu</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
-							<label class="required">Select Plan</label>
+							<label class="required">Meter Type</label>
                             <select class="custom-select w-100 custom-select-lg">
                                 <option selected>Select menu</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
+							<label class="required">Meter Number</label>
+							<input type="text" placeholder="Enter Meter Number" required>
 							<label class="required">Phone Number</label>
-							<input type="text" placeholder="Phone Number(s) seperated by a comma(,)" required>
-							<button type="submit" class="btn btn-lg btn-dark">Buy Data</button>
+							<input type="text" placeholder="Enter Phone Number" required>
+							<label class="required">Amount</label>
+							<input type="text" placeholder="Enter Amount to Pay" required>
+							<button type="submit" class="btn btn-lg btn-dark">Pay Now</button>
 						</form>
 					</div>
 
@@ -62,4 +66,4 @@
             </div>
         </div>
     </div>		
-<?php $this->load->view('user/inc/footer');?>
+<?php $this->load->view('admin/inc/footer');?>

@@ -4,14 +4,28 @@
 			<div class="container">
 				<div class="row col-spacing-50">
 					<div class="col-12 col-md-6">
-						<form>
-							<label>Name</label>
-							<input type="text" placeholder="Your name">
-							<label class="required">Email address</label>
-							<input type="email" placeholder="Enter your email" required>
-							<label class="required">Message</label>
-							<textarea name="message" placeholder="Message" required></textarea>
-							<button type="submit" class="btn btn-lg btn-dark">Submit</button>
+                    <form>
+							<label class="required">Power Holding Company</label>
+                            <select class="custom-select w-100 custom-select-lg">
+                                <option selected>Select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+							<label class="required">Meter Type</label>
+                            <select class="custom-select w-100 custom-select-lg">
+                                <option selected>Select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+							<label class="required">Meter Number</label>
+							<input type="text" placeholder="Enter Meter Number" required>
+							<label class="required">Phone Number</label>
+							<input type="text" placeholder="Enter Phone Number" required>
+							<label class="required">Amount</label>
+							<input type="text" placeholder="Enter Amount to Pay" required>
+							<button type="submit" class="btn btn-lg btn-dark">Pay Now</button>
 						</form>
 					</div>
 
