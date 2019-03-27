@@ -2,7 +2,7 @@
 			<footer>
 				<div class="footer bg-dark-lighter">
 					<div class="container text-center">
-						<h3>Mono</h3>
+						<h3>F-Cube Digitals</h3>
 						<ul class="list-horizontal-unstyled icon-lg margin-top-20">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -49,6 +49,16 @@
 		<script src="<?= base_url("assets/plugins/gmaps.min.html");?>"></script>
 		<!-- Scripts -->
 		<script src="<?= base_url("assets/js/functions.min.html");?>"></script>
+		<script>
+			$('#user-icon').on('click', function(){
+				let d = $('.dropdown-custom').css("display");
+				if(d == "none"){
+					$('.dropdown-custom').css("display","block");
+				}else{
+					$('.dropdown-custom').css("display","none");
+				}
+			});
+		</script>
 	</body>
 
 </html>

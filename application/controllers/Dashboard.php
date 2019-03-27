@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Dashboard extends CI_Controller {
 	public function index()
 	{
-		$page_data['pg_title'] = "User Dashboard";
+		$page_data['pg_title'] = "Dashboard";
 		$page_data['pg_name'] = "dashboard";
 		$this->load->view('user/dashboard', $page_data);
 	}
