@@ -12,6 +12,7 @@
 		<!-- CSS -->
 		<link href="<?= base_url("assets/plugins/bootstrap/bootstrap.min.css");?>" rel="stylesheet">
 		<link href="<?= base_url("assets/plugins/owl-carousel/owl.carousel.min.css");?>" rel="stylesheet">
+		<link href="<?= base_url("assets/plugins/datatables/datatables.min.css");?>" rel="stylesheet">
 		<link href="<?= base_url("assets/plugins/owl-carousel/owl.theme.default.min.css");?>" rel="stylesheet">
 		<link href="<?= base_url("assets/plugins/magnific-popup/magnific-popup.min.css");?>" rel="stylesheet">
 		<link href="<?= base_url("assets/css/app.min.css");?>" rel="stylesheet">
