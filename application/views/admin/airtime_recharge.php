@@ -1,4 +1,4 @@
-<?php $this->load->view('user/inc/sidebar');?>
+<?php $this->load->view('admin/inc/sidebar');?>
 	<div style="min-height:calc(100vh - 358px);">
         <div class="section">
 			<div class="container">
@@ -12,16 +12,11 @@
                                 <option value="2">Two</option>
                                 <option value="3">Three</option>
                             </select>
-							<label class="required">Select Plan</label>
-                            <select class="custom-select w-100 custom-select-lg">
-                                <option selected>Select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
+							<label class="required">Enter Amount</label>
+							<input type="text" placeholder="Enter Amount" required>
 							<label class="required">Phone Number</label>
 							<input type="text" placeholder="Phone Number(s) seperated by a comma(,)" required>
-							<button type="submit" class="btn btn-lg btn-dark">Buy Data</button>
+							<button type="submit" class="btn btn-lg btn-dark">Buy Airtime</button>
 						</form>
 					</div>
 
@@ -62,4 +57,4 @@
             </div>
         </div>
     </div>		
-<?php $this->load->view('user/inc/footer');?>
+<?php $this->load->view('admin/inc/footer');?>

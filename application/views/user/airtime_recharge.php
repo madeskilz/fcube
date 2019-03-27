@@ -5,13 +5,18 @@
 				<div class="row col-spacing-50">
 					<div class="col-12 col-md-6">
 						<form>
-							<label>Name</label>
-							<input type="text" placeholder="Your name">
-							<label class="required">Email address</label>
-							<input type="email" placeholder="Enter your email" required>
-							<label class="required">Message</label>
-							<textarea name="message" placeholder="Message" required></textarea>
-							<button type="submit" class="btn btn-lg btn-dark">Submit</button>
+							<label class="required">Select Network</label>
+                            <select class="custom-select w-100 custom-select-lg">
+                                <option selected>Select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+							<label class="required">Enter Amount</label>
+							<input type="text" placeholder="Enter Amount" required>
+							<label class="required">Phone Number</label>
+							<input type="text" placeholder="Phone Number(s) seperated by a comma(,)" required>
+							<button type="submit" class="btn btn-lg btn-dark">Buy Airtime</button>
 						</form>
 					</div>
 
