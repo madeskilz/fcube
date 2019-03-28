@@ -1,5 +1,5 @@
 <?php $this->load->view('admin/inc/sidebar');?>
-	<div style="min-height:calc(100vh - 358px);">
+	<div style="min-height:100vh;">
         <div class="section">
 			<div class="container">
 				<div class="row col-spacing-50">
@@ -19,7 +19,7 @@
               </div>
               <div class="col-md-6">
                 <label class="required">Service Title</label>
-                <input type="text" placeholder="E.g 1.8GiB - 1000" required>
+                <input type="text" placeholder="Enter Service Name" required>
               </div>
             </div>
             <div class="row">

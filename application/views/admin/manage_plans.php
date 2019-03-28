@@ -1,5 +1,5 @@
 <?php $this->load->view('admin/inc/sidebar');?>
-	<div style="min-height:calc(100vh - 358px);">
+	<div style="min-height:100vh;">
         <div class="section">
 			<div class="container">
 				<div class="row col-spacing-50">

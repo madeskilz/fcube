@@ -1,32 +1,3 @@
-
-			<footer>
-				<div class="footer bg-dark-lighter">
-					<div class="container text-center">
-						<h3>F-Cube Digitals</h3>
-						<ul class="list-horizontal-unstyled icon-lg margin-top-20">
-							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-						</ul>
-					</div><!-- end container -->
-				</div><!-- end footer -->
-				<div class="footer-bottom bg-dark">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-md-6 text-center text-md-left">
-								<p>&copy; <?= date("Y");?> F-Cube Digitals, All Rights Reserved.</p>
-							</div>
-							<div class="col-12 col-md-6 text-center text-md-right">
-								<ul class="list-horizontal-unstyled">
-									<li><a href="#">Policy</a></li>
-									<li><a href="#">Terms &amp; Conditions</a></li>
-								</ul>
-							</div>
-						</div><!-- end row -->
-					</div><!-- end container -->
-				</div><!-- end footer-bottom -->
-			</footer>
 		</div>
 
 		<!-- ***** JAVASCRIPTS ***** -->
