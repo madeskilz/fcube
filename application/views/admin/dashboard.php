@@ -71,38 +71,27 @@
 			</div>
 
 			<div class="section" style="padding-top:unset;">
-				<div class="container">
-				<table class="table table-bordered js-table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Email</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>John</td>
-      <td>Smith</td>
-      <td>name@email.com</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Alexander</td>
-      <td>Warren</td>
-      <td>name@email.com</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Melissa</td>
-      <td>Bakos</td>
-      <td>name@email.com</td>
-    </tr>
-  </tbody>
-</table>
-
+				<div class="container table-responsive">
+				<table class="table table-bordered js-table" width="100%">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Full Name</th>
+              <th scope="col">Phone/Email</th>
+              <th scope="col">Date</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>John</td>
+              <td>name@email.com</td>
+              <td>12/12/12</td>
+              <td>&#8358; 10,000</td>
+            </tr>
+          </tbody>
+        </table>
 				</div><!-- end container -->
 			</div>
 <?php $this->load->view('admin/inc/footer');?>

@@ -91,8 +91,8 @@
 	            <span class="fa fa-user"></span>
         	</button>
 			<div class="dropdown-custom">
-				<a class="dropdown-item" href="#">My Wallet</a>
-				<a class="dropdown-item" href="#">My History</a>
+				<a class="dropdown-item" href="<?= base_url("admin/wallet_funding");?>">Wallet Funding</a>
+				<a class="dropdown-item" href="<?= base_url("dashboard/manage_users");?>">Manage Users</a>
 				<a class="dropdown-item" href="#">Sign Out</a>
 			</div>
 			</div>
@@ -106,17 +106,17 @@
 					<li class="<?php if($pg_name == "dashboard") echo "active";?>">
 						<a class="" href="<?= base_url("admin");?>"> <i class="fas fa-home"></i> Dashboard</a>
 					</li>
-					<li class="<?php if($pg_name == "airtime") echo "active";?>">
-						<a class="" href=<?= base_url("admin/airtime_recharge");?>> <i class="fas fa-bell"></i> Manage Services</a>
+					<li class="<?php if($pg_name == "services") echo "active";?>">
+						<a class="" href="<?= base_url("admin/manage_services");?>"> <i class="fas fa-bell"></i> Manage Services</a>
 					</li>
-					<li class="<?php if($pg_name == "data") echo "active";?>">
-						<a class="" href=<?= base_url("admin/data_recharge");?>> <i class="fas fa-wifi"></i> Manage Plans</a>
+					<li class="<?php if($pg_name == "plans") echo "active";?>">
+						<a class="" href="<?= base_url("admin/manage_plans");?>"> <i class="fas fa-wifi"></i> Manage Plans</a>
 					</li>
-					<li class="<?php if($pg_name == "electric") echo "active";?>">
-						<a class="" href=<?= base_url("admin/electric_bill");?>> <i class="fas fa-users"></i> Manage Users</a>
+					<li class="<?php if($pg_name == "users") echo "active";?>">
+						<a class="" href="<?= base_url("admin/manage_users");?>"> <i class="fas fa-users"></i> Manage Users</a>
 					</li>
 					<li class="<?php if($pg_name == "wallet") echo "active";?>">
-						<a class="" href=<?= base_url("admin/my_wallet");?>> <i class="fas fa-wallet"></i>  Wallet Funding</a>
+						<a class="" href="<?= base_url("admin/wallet_funding");?>"> <i class="fas fa-wallet"></i>  Wallet Funding</a>
 					</li>
 					<li>
 						<a class="" href="#"> <i class="fas fa-power-off"></i> Sign Out</a>

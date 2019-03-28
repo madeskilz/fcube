@@ -8,34 +8,28 @@ class Admin extends CI_Controller {
 		$page_data['pg_name'] = "dashboard";
 		$this->load->view('admin/dashboard', $page_data);
 	}
-	public function my_wallet()
+	public function wallet_funding()
 	{
-		$page_data['pg_title'] = "My Wallet";
+		$page_data['pg_title'] = "Wallet Funding";
 		$page_data['pg_name'] = "wallet";
-		$this->load->view('admin/my_wallet', $page_data);
+		$this->load->view('admin/wallet_funding', $page_data);
 	}
-	public function tv_subscription()
+	public function manage_services()
 	{
-		$page_data['pg_title'] = "TV Subscription";
-		$page_data['pg_name'] = "tv";
-		$this->load->view('admin/tv_subscription', $page_data);
+		$page_data['pg_title'] = "Manage Services";
+		$page_data['pg_name'] = "services";
+		$this->load->view('admin/manage_services', $page_data);
 	}
-	public function data_recharge()
+	public function manage_plans()
 	{
-		$page_data['pg_title'] = "Data Recharge";
-		$page_data['pg_name'] = "data";
-		$this->load->view('admin/data_recharge', $page_data);
+		$page_data['pg_title'] = "Manage Plans";
+		$page_data['pg_name'] = "plans";
+		$this->load->view('admin/manage_plans', $page_data);
 	}
-	public function airtime_recharge()
+	public function manage_users()
 	{
-		$page_data['pg_title'] = "Airtime Recharge";
-		$page_data['pg_name'] = "airtime";
-		$this->load->view('admin/airtime_recharge', $page_data);
-	}
-	public function electric_bill()
-	{
-		$page_data['pg_title'] = "Electric Bills";
-		$page_data['pg_name'] = "electric";
-		$this->load->view('admin/electric_bill', $page_data);
+		$page_data['pg_title'] = "Manage Users";
+		$page_data['pg_name'] = "users";
+		$this->load->view('admin/manage_users', $page_data);
 	}
 }

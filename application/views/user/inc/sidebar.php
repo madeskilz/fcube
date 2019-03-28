@@ -91,8 +91,7 @@
 	            <span class="fa fa-user"></span>
         	</button>
 			<div class="dropdown-custom">
-				<a class="dropdown-item" href="#">My Wallet</a>
-				<a class="dropdown-item" href="#">My History</a>
+				<a class="dropdown-item" href="<?= base_url("dashboard/my_wallet");?>">My Wallet</a>
 				<a class="dropdown-item" href="#">Sign Out</a>
 			</div>
 			</div>
@@ -107,19 +106,19 @@
 						<a class="" href="<?= base_url("dashboard");?>"> <i class="fas fa-home"></i> Dashboard</a>
 					</li>
 					<li class="<?php if($pg_name == "airtime") echo "active";?>">
-						<a class="" href=<?= base_url("dashboard/airtime_recharge");?>> <i class="fas fa-signal"></i> Airtime Recharge</a>
+						<a class="" href="<?= base_url("dashboard/airtime_recharge");?>"> <i class="fas fa-signal"></i> Airtime Recharge</a>
 					</li>
 					<li class="<?php if($pg_name == "data") echo "active";?>">
-						<a class="" href=<?= base_url("dashboard/data_recharge");?>> <i class="fas fa-wifi"></i> Data Recharge</a>
+						<a class="" href="<?= base_url("dashboard/data_recharge");?>"> <i class="fas fa-wifi"></i> Data Recharge</a>
 					</li>
 					<li class="<?php if($pg_name == "tv") echo "active";?>">
-						<a class="" href=<?= base_url("dashboard/tv_subscription");?>> <i class="fas fa-desktop"></i> TV Subscription</a>
+						<a class="" href="<?= base_url("dashboard/tv_subscription");?>"> <i class="fas fa-desktop"></i> TV Subscription</a>
 					</li>
 					<li class="<?php if($pg_name == "electric") echo "active";?>">
-						<a class="" href=<?= base_url("dashboard/electric_bill");?>> <i class="fas fa-car-battery"></i> Electric Bills</a>
+						<a class="" href="<?= base_url("dashboard/electric_bill");?>"> <i class="fas fa-car-battery"></i> Electric Bills</a>
 					</li>
 					<li class="<?php if($pg_name == "wallet") echo "active";?>">
-						<a class="" href=<?= base_url("dashboard/my_wallet");?>> <i class="fas fa-wallet"></i> My Wallet</a>
+						<a class="" href="<?= base_url("dashboard/my_wallet");?>"> <i class="fas fa-wallet"></i> My Wallet</a>
 					</li>
 					<li>
 						<a class="" href="#"> <i class="fas fa-power-off"></i> Sign Out</a>
