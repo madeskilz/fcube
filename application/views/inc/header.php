@@ -26,7 +26,7 @@
 				<div class="container">
 					<a class="navbar-brand" href="<?= base_url()?>">
 						<!-- <h5>F-Cube Digitals</h5> -->
-						<img src="<?= base_url("assets/images/logo-1.jpeg");?>" style="width: 200%;min-height: 50px;" />
+						<img src="<?= base_url("assets/images/logo-1.jpeg");?>" style="min-height: 50px;" />
 					</a>
 					<ul class="nav">
 						<li class="nav-item">
